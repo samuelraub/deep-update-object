@@ -1,0 +1,17 @@
+{
+  "name": "object-update-deep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "build": "parcel build ./src/index.js -d ./dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.2.2"
+  }
+}
