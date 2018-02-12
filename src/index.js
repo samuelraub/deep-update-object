@@ -28,4 +28,4 @@ const updateValAtKey = (obj, path, cb) => {
     }
 }
 
-module.exports = updateValAtKey;
+module.exports = updateValAtKey
