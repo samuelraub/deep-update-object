@@ -17,8 +17,13 @@
     "value",
     "nested"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Samuel Raub",
+  "homepage": "https://github.com/samuelraub/deep-update-object",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samuelraub/deep-update-object.git"
+  },
+  "license": "MIT",
   "devDependencies": {
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",

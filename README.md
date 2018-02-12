@@ -1,5 +1,5 @@
 # deep-update-object
-object-deep-update is a zero-dependency module that let's you update any value at any position of a structure of nested objects. It returns a new object and does NOT MUTATE the original object.
+deep-update-object is a zero-dependency module that let's you update any value at any position of a structure of nested objects. It returns a new object and does NOT MUTATE the original object.
 
 ```js
 deepUpdateObject(object, path, callback)
@@ -13,6 +13,7 @@ __callback:__ Function you want to perform on the value in __path__.
 
 ### Returns
 __new Object__: if path is a valid set of properties.
+
 __false__: if path is not a valid set of properties.
 
 ## Use
