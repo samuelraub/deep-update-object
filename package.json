@@ -1,6 +1,6 @@
 {
   "name": "deep-update-object",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "object-deep-update is a zero-dependency module that let's you update any value at any position of a structure of nested objects. It returns a new object and does NOT MUTATE the original object.",
   "main": "./dist/index.js",
   "scripts": {
