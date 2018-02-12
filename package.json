@@ -1,17 +1,32 @@
 {
-  "name": "object-update-deep",
+  "name": "deep-update-object",
   "version": "1.0.0",
-  "description": "",
+  "description": "object-deep-update is a zero-dependency module that let's you update any value at any position of a structure of nested objects. It returns a new object and does NOT MUTATE the original object.",
   "main": "./dist/index.js",
   "scripts": {
     "test": "jest --watchAll",
-    "build": "parcel build ./src/index.js -d ./dist/"
+    "build": "webpack"
   },
-  "keywords": [],
+  "keywords": [
+    "object",
+    "update",
+    "pure",
+    "deep",
+    "set",
+    "key",
+    "value",
+    "nested"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
-    "jest": "^22.2.2"
-  }
+    "clean-webpack-plugin": "^0.1.18",
+    "jest": "^22.2.2",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "webpack": "^3.11.0",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "dependencies": {}
 }

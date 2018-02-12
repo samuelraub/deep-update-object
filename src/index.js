@@ -1,3 +1,5 @@
+const _ = require('lodash');
+
 const updateValAtKey = (obj, path, cb) => {
     const checkValidPath = (obj, path) => {
         if (path.length > 1) {
